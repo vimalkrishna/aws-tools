@@ -46,3 +46,6 @@ out/
 *.pem
 *.key
 *.crt
+
+# Misc
+.bash_profile
