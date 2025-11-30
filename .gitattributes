@@ -1,0 +1,35 @@
+# .gitattributes file to manage line endings and file types
+# Enforce consistent line endings across platforms
+* text=auto
+
+# Source code files (Python, JSON, YAML, etc.) → LF (Linux style)
+*.py     text eol=lf
+*.json   text eol=lf
+*.yaml   text eol=lf
+*.yml    text eol=lf
+*.sh     text eol=lf
+
+# Markdown and documentation → LF
+*.md     text eol=lf
+*.txt    text eol=lf
+
+# VSCode and config files → LF
+*.vscode/* text eol=lf
+*.editorconfig text eol=lf
+
+# Windows-specific scripts → CRLF
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+
+# Binary files → keep untouched
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+*.exe    binary
+*.dll    binary
