@@ -1,0 +1,48 @@
+.vscode/*
+!.vscode/settings.json
+
+# IDE/editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+
+# Node.js / CDK
+node_modules/
+npm-debug.log*
+yarn-error.log
+cdk.out/
+
+# AWS / Infra
+.aws-sam/
+.serverless/
+.terraform/
+
+# Testing
+.coverage/
+.pytest_cache/
+*.log
+reports/
+
+# Build / Packaging
+dist/
+build/
+out/
+*.egg-info/
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
